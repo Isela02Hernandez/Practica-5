@@ -1,0 +1,74 @@
+:root{
+    --fondoDiv: purple;
+    --colorTexto: white;
+    --colorPeligro: orangered;
+    --colormenu: violet;
+    --colorinicio: rgb(83, 5, 83);
+    --hover: rgb(162, 80, 230);
+
+}
+.black-box{
+    background-color: var(--fondoDiv);
+    color: white;
+}
+.caja{
+    color: var(--colorPeligro)
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial;
+}
+nav a.inicio{
+    background-color: var(--colorinicio);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 15px
+
+}
+
+nav a.nosotros, .actualizacion, .iniciar{
+    background-color: var(--colormenu);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+nav a.inicio:hover{
+    background-color: rgb(162, 80, 230);
+    color: white;
+    font-family: arial;
+}
+nav a.nosotros:hover{
+   background-color: var(--hover);
+   color: white;
+   font-family: arial;
+
+}
+nav a.actualizacion:hover{
+    background-color: var(--hover);
+    color: white;
+    font-family: arial;
+}
+nav a.iniciar:hover{
+    background-color: var(--hover);
+   color: white;
+   font-family: arial;
+}
+.A{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+
+}
+.B{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+
+}
+.C{
+    background-color: var(--fondoDiv);
+    color: var(--colorTexto);
+}
+
